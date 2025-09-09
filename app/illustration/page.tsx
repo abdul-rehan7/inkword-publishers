@@ -11,6 +11,7 @@ export default function IllustrationPage() {
       'Simple, clean illustrations with vibrant colors',
       'Suitable for short stories or beginner projects',
       'Includes 4 revision per page'
+      
     ]
   };
 
