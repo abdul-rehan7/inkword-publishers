@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import PricingCard from '@/components/PricingCard';
+import Contact from '@/components/Contact';
 import Link from 'next/link';
 
 export default function Home() {
@@ -136,7 +137,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      {/* <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -156,7 +157,13 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
+
+      {/* Contact Section */}
+      
+
+      <Contact />
+    
     </div>
   );
 }
