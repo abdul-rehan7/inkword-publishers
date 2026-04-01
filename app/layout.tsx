@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import "aos/dist/aos.css";
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AOSInitializer from "@/components/AOSInitializer";
