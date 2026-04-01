@@ -1,6 +1,6 @@
 {
   "name": "book_publishing_web",
-  "version": "0.1.0",
+  "version": "0.1.1git add .",
   "private": true,
   "scripts": {
     "dev": "next dev",
