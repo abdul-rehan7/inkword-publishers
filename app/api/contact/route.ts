@@ -28,6 +28,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    
     // Log the submission for now (you can see this in the terminal where you run npm run dev)
     console.log('=== NEW CONTACT FORM SUBMISSION ===');
     console.log('Name:', name);
