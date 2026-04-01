@@ -14,7 +14,7 @@ const EMAIL_CONFIG = {
 
 // The email where you want to receive contact form submissions
 const RECIPIENT_EMAIL = 'abdulrehan0317@gmail.com'; // Replace with your actual email
-
+export const runtime = 'edge';
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
