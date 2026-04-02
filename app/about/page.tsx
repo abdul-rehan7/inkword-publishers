@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Hero from '@/components/Hero';
 
 export default function AboutPage() {
@@ -29,9 +30,12 @@ export default function AboutPage() {
               </div>
               
               <div className="flex justify-center lg:justify-end" data-aos="fade-left">
-                <img 
+                <Image 
                   src="/author-img.png" 
                   alt="Author working on manuscript" 
+                  width={800}
+                  height={600}
+                  sizes="(min-width: 1024px) 35vw, 90vw"
                   className="rounded-lg  max-w-[70%] h-auto"
                 />
               </div>
@@ -46,16 +50,19 @@ export default function AboutPage() {
             
             <div className="grid grid-cols-1 lg:grid-cols-2  items-center">
               <div className="flex justify-center lg:justify-start order-2 lg:order-1" data-aos="fade-right">
-                <img 
+                <Image 
                   src="/why-choose-us.png" 
                   alt="Team collaboration and expertise" 
+                  width={800}
+                  height={600}
+                  sizes="(min-width: 1024px) 35vw, 90vw"
                   className="rounded-lg md:w-[70%] h-auto"
                 />
               </div>
               
               <div className="space-y-6 text-gray-600 md:text-xl text-justify leading-relaxed order-1 lg:order-2" data-aos="fade-left">
                 <p>
-                  We combine years of industry experience with a passion for storytelling. Our team works closely with authors, offering personalized guidance and innovative solutions, so every project reflects the author's unique vision. With a focus on excellence and client satisfaction, PineTree Press is your trusted partner in the publishing journey.
+                  We combine years of industry experience with a passion for storytelling. Our team works closely with authors, offering personalized guidance and innovative solutions, so every project reflects the author&apos;s unique vision. With a focus on excellence and client satisfaction, PineTree Press is your trusted partner in the publishing journey.
                 </p>
               </div>
             </div>

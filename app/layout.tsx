@@ -37,7 +37,8 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">
           {children}
-           <Script
+          <Script
+          id="crisp-chat-loader"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `

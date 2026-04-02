@@ -1,8 +1,6 @@
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
-import PricingCard from '@/components/PricingCard';
 import Contact from '@/components/Contact';
-import Link from 'next/link';
 
 export default function Home() {
   const services = [
@@ -57,22 +55,6 @@ export default function Home() {
       href: '/book-cover-design'
     }
   ];
-
-  const bookPackage = {
-    title: 'Basic',
-    price: '199',
-    priceUnit: '',
-    features: [
-      'Publishing on Amazon in eBook, Paperback, & Hardcover Formats',
-      'Complimentary Proofreading and Formatting',
-      'Beta-readers Feedback Report',
-      'Categories Research & Listing',
-      'Prelisting on Amazon',
-      'ePub Formating',
-      'Dedicated Account Manager',
-      'Keywords Research & Listing'
-    ]
-  };
 
   return (
     <div className="min-h-screen">
