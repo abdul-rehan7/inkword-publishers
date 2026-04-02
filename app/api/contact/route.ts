@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 const RECIPIENT_EMAIL = 'abdulrehan0317@gmail.com';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {
