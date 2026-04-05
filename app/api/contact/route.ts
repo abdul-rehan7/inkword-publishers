@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-const RECIPIENT_EMAIL = 'abdulrehan0317@gmail.com';
+const RECIPIENT_EMAIL = 'info@inkwordpublishers.com';
 
 export const runtime = 'edge';
 
